@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
 .principal {
     display: flex;
     flex-direction: column;
@@ -456,7 +464,6 @@ body {
 
 .spancompetencias {
     color: #94A3B8;
-    ;
 }
 
 #iconrede {
@@ -1018,10 +1025,6 @@ p {
     font-size: 13px;
     color: #00FF7F;
 }
-
-
-
-
 
 .experiencias {
     display: flex;
