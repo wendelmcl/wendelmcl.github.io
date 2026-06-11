@@ -11,6 +11,10 @@ section {
     scroll-margin-top: 90px;
 }
 
+section, footer {
+    scroll-margin-top: 90px;
+}
+
 .principal {
     display: flex;
     flex-direction: column;
@@ -50,6 +54,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 9999;
 }
 
 .navbar {
